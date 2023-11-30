@@ -9,7 +9,7 @@ class BaseConfig:
     date_string = now.strftime("%Y-%m-%d")
     time_string = now.strftime("%H-%M-%S")
 
-    HOSTS_FILE = "domains.txt"
+    HOSTS_FILE = f"./processing/extracted-domains/clean/gmaps-extracted-domains.csv"
     THREADS_NUMBER = 80
 
     OUTPUT_FOLDER = "results"
