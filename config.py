@@ -13,7 +13,7 @@ class BaseConfig:
     THREADS_NUMBER = 80
 
     OUTPUT_FOLDER = "results"
-    OUTPUT_FILE = f"{OUTPUT_FOLDER}\\Results_{date_string}_{time_string}.txt"
+    OUTPUT_FILE = f"./results/results_{date_string}_{time_string}.txt"
 
     LOG_FOLDER = "logs"
     LOG_FILE = f"{LOG_FOLDER}\\main.log"
