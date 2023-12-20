@@ -9,13 +9,13 @@ class BaseConfig:
     date_string = now.strftime("%Y-%m-%d")
     time_string = now.strftime("%H-%M-%S")
 
-    HOSTS_FILE = f"./processing/extracted-domains/clean/gmaps-extracted-domains.txt"
+    HOSTS_FILE = f"../../proc/email_scrape_tmp.txt"
     THREADS_NUMBER = 80
 
     OUTPUT_FOLDER = "results"
-    OUTPUT_FILE = f"./results/results_tmp.txt"
+    OUTPUT_FILE = f"../../proc/email_results_tmp.txt"
 
-    LOG_FOLDER = "logs"
+    LOG_FOLDER = "../../logs"
     LOG_FILE = f"{LOG_FOLDER}\\main.log"
     LOG_FILE_SIZE = 3
 
